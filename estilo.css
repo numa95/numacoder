@@ -1,0 +1,619 @@
+.body__index {
+	font-family: 'Radio Canada', sans-serif;
+	background-image: url(imagenes/buenos-aires/fondo.jpg);	
+	background-repeat: no-repeat;
+	min-height: 100vp;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header__index {
+	background: linear-gradient(45deg,#6570C0ff,#907CB2ff);
+	height: auto;
+	width: 100vw;
+}
+
+.nav__index{
+	height: auto;
+	width: 100vw;
+}
+.ul__index{
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(1,1fr)
+}
+.ul__index_2{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(1,1fr)
+}
+
+.li__index {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+.a__index {
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: #3C3F46;
+}
+
+.a__index:hover {
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #df8a2f;
+}
+
+.h1__index {
+	height: 5rem;
+	font-weight: 600;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.cuerpo__index {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(1,1fr)
+}
+
+.article__index {
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: repeat(2,1fr);
+}
+
+.section__index {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 70vw;
+}
+
+.h2__index {
+	background-color: #939ad1;
+	font-size: 1rem;
+	color: #4a4257;
+	width: 5rem;
+	border-radius: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p__index {
+	text-align: left;
+	padding-left: 1rem;
+	margin-left: 1rem;
+	width: 60vw;
+	background-color: rgba(188, 185, 211, 0.5);
+	color: whitesmoke;
+
+}
+
+.aside__index {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around
+}
+
+.h3__index {
+	font-size: 1rem;
+	color: #4A4257;
+	background-color: #939AD1;
+	border-radius: 1em;
+	width: auto;
+	text-align: center;
+
+}
+
+.h4__index {
+	font-size: 0.75rem;
+	text-align: center;
+	margin-top: 2rem;
+	color: whitesmoke;
+}
+
+.img__index {
+	margin-top: 2rem;
+}
+
+.footer1 {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(2,1fr);
+	background-color: rgba(76, 87, 162, 0.5);
+	height: 4rem;
+	margin-top: 2rem;
+	margin-bottom: 0px;
+}
+
+.h6__index {
+	text-align: center;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.footer__index_ul {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.footer__index_a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1rem;
+	margin-left: 0.25rem;
+}
+
+@media only screen and (min-width: 1024px) {
+	.ul__index{
+		width: 50vw;
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.ul__index_2{
+		width: 50vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.header__index{
+		height: 3rem;
+		box-sizing: border-box;
+	}
+	.nav__index {
+		height: 3rem;
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(1,1fr);
+	}
+
+	.a__index {
+		font-size: 1.5rem;
+	}
+
+	.h1__index {
+		font-size: 4rem;
+	}
+
+	.h2__index{
+		font-size: 2rem;
+		width: 20rem;
+	}
+
+	.p__index {
+		font-size: 1.2rem;
+	}
+
+	.h3__index {
+		font-size: 2rem;
+		margin-right: 5rem;
+	}
+
+	.h4__index {
+		font-size: 1.2rem;
+		margin-right: 4rem;
+	}
+
+	.img__index {
+		width: 18rem;
+	}
+
+	.footer1 {
+		height: auto;
+	}
+
+	.footer__index_ul {
+		margin-top: 1rem;
+	}
+
+	.footer__index_a {
+		font-size: 1.2rem;
+	}
+
+	.h6__index {
+		font-size: 1.7rem;
+		margin-top: 1rem;
+	}
+}
+
+
+
+
+/*pagina 2 provincias -------------------------------------------------*/
+
+.body__pagina2 {
+	font-family: 'Radio Canada', sans-serif;
+	background-image: url(audiovisual/background/fondo.jpg);	
+	background-repeat: no-repeat;
+	min-height: 100vp;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header__pagina2{
+	background: linear-gradient(45deg, #7F8C95, #9D9080, #625535, #6D7326, #3A6E69);
+	height: 3.75rem;
+	width: 100vw;
+}
+.nav__pagina2 {
+	height: auto;
+	width: 100vw;
+}
+.ul__pagina2 {
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: repeat(1,1fr);
+	justify-items: center;
+}
+.li__pagina2 {
+	list-style: none;
+	text-decoration: none;
+	margin-top: 1rem;
+
+}
+.a__pagina2 {
+	list-style: none;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #3C3F46;
+	}
+	
+.a__pagina2:hover {
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #df8a2f;
+
+}
+
+.h1__pagina2 {
+	font-size: 7rem;
+	text-align: center;
+	font-weight: bold;
+	color:  #9F8A56;
+}
+
+.pagina2__ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 8rem;
+}
+
+.pagina2__li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pagina2__a {
+	text-decoration: none;
+	font-family: 'Radio Canada', sans-serif;
+	font-size: 1.9rem;
+	font-weight: bold;
+	color: #53581C;
+	background-color: #9F8A56;
+	margin-top: 5rem;
+	width: 11rem;
+	border-radius: 1em;
+	text-align: center;
+}
+
+.pagina2__img {
+	margin-top: 2rem;
+	width: 26.25rem;
+	height: 16.63rem;
+}
+
+
+.footer__pagina2 {
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: repeat(2,1fr);
+	height: 7rem;
+	background-color: rgba(109, 115, 38, 0.5);
+	margin-top: 2rem;
+}
+
+.h2__pagina2_footer {
+	text-align: center;
+	font-size: 1.5rem;
+}
+ .ul__pagina2_footer {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+ }
+
+.li__pagina2_footer {
+	margin-left: 1rem;
+	margin-left: 1rem;
+	list-style: none;
+}
+.a__pagina2__footer {
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: whitesmoke;
+}
+
+@media only screen and (min-width: 600px) {
+	.a__pagina2 {
+		font-size: 1.3rem;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	
+	.header__pagina2{
+		height: 2rem;
+	}
+	.li__pagina2{
+		margin-top: 0.25rem;
+	}
+	.a__pagina2 {
+		font-size: 1rem;
+	}
+	.h1__pagina2 {
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (min-width: 320px) {
+
+	.header__pagina2 {
+		width: 20rem;
+		height: auto;
+	}
+	.nav__pagina2{
+		width: 20rem;
+		height: auto;
+	}
+	.ul__pagina2 {
+		width: 20rem;
+		height: auto;
+		grid-template-columns: repeat(1,1fr);
+		grid-template-rows: repeat(5,1fr);
+	}
+	.li__pagina2{
+		margin-top: 0;
+	}
+
+	}
+	.h1__pagina2{
+		font-size: 3rem;
+	}
+	.h2__pagina2_footer {
+		font-size: 1rem;
+	}
+	.a__pagina2__footer {
+		font-size: 0.8rem;
+		
+}
+
+
+
+
+
+/*pagina 3 decubre ----------------------------------------------------*/
+
+.body3 {
+	font-family: 'Radio Canada', sans-serif;
+	background-image: url(audiovisual/background1/fondo.jpg);	
+	background-repeat: no-repeat;
+	min-height: 100vp;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.header3{
+	background: linear-gradient(45deg, #3F5B4A, #71798E, #61A0D3, #D3B966, #7D8E24);
+	height: 3.75rem;
+}
+
+
+.descubriendoh2 {
+text-align: center;
+margin-top: 10rem;
+font-size: 3rem;
+font-weight: bold;
+color: #7D8E24;
+}
+
+.sectiondescubre {
+	display: flex;
+	flex-direction: column;
+}
+
+.h3descubre {
+font-size: 1.5rem;
+font-weight: bold;
+background-color: #D3B966;
+color: #7D8E24;
+width: 14rem;
+margin-top: 7rem;
+margin-left: 35rem;
+margin-right: 35rem;
+text-align: center;
+border-radius: 0.5rem;
+}
+
+section>p {
+	font-size: 1rem;
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-right: 7rem;
+	margin-left: 7rem;
+	background-color: rgba(188, 185, 211, 0.5);
+	text-align: center;
+}
+
+.imgdescubre {
+	height: 50rem;
+	width: 100%;
+	margin-top: 5rem;
+}
+
+.footer3 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5rem;
+	margin-bottom: 0;
+	height: 7rem;
+	background-color: rgba(125, 142, 36, 0.5);
+}
+
+
+
+/*pagina 4 reserva-----------------------------------------------------*/
+
+.body4 {
+	font-family: 'Radio Canada', sans-serif;
+	background-image: url(audiovisual/background2/fondo.jpg);	
+	background-repeat: no-repeat;
+	min-height: 100vp;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header4{
+	background: linear-gradient(45deg, #3C3F46, #DAEAF6, #E9C3AD, #9ECAED, #655E57);
+	height: 3.75rem;
+}
+
+.h2pagina4 {
+	color: #2378BE;
+	font-size: 4rem;
+	font-weight: bold;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.formulariop {
+	font-size: 1rem;
+	color: #342146;
+	font-weight: bold;
+	width: 33%;
+	text-align: center;
+	margin-top: 10rem;
+	margin-left: 29rem;
+	margin-right: 30rem;
+}
+
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+	border-color: #DAEAF6;
+}
+
+.formularioh5 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.formulario1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario2 {
+	color: #342146;
+	font-weight: bold;
+	width: 40rem;
+	border-color: #342146;
+	border-radius: 0.5em;
+	height: 3rem;
+	font-family: 'Radio Canada', sans-serif;
+	background-color: rgba(233, 195, 173, 0.5);
+}
+
+.footer4 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5rem;
+	margin-bottom: 0;
+	height: 7rem;
+	background-color: rgba(233, 195, 173, 0.5);
+}
+
+/*pagina 5 viajes -----------------------------------------------------*/
+
+.body5 {
+	font-family: 'Radio Canada', sans-serif;
+	background-image: url(audiovisual/background4/fondo.jpg);	
+	background-repeat: no-repeat;
+	min-height: 100vp;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header5{
+	background: linear-gradient(45deg, #657A07, #5C1A1E, #537385, #342146, #436389);
+	height: 3.75rem;
+}
+
+.viaje1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.viaje2 {
+	color: #D26067;
+	font-size: 4rem;
+	font-weight: bold;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.viaje22 {
+	color: #657A07;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 5rem;
+	text-align: center;
+	background-color: rgba(188, 185, 211, 0.5);
+}
+
+.imgsizeviaje {
+margin-top: 4rem;
+width: 80%;
+height: 35rem;
+}
+
+.footer5 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5rem;
+	margin-bottom: 0;
+	height: 7rem;
+	border-radius: 0.5;
+	background-color: rgba(83, 115, 133, 0.5);
+}
